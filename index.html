@@ -1,0 +1,295 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover, user-scalable=yes" />
+    <title>Rahul Abhishek — Full Stack Developer & Student</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wdth,wght@12..96,75..100,400;12..96,75..100,600;12..96,75..100,700;12..96,75..100,800&family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300&family=Cabinet+Grotesk:wght@400;500;700;800&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+    <div id="cursor"></div>
+    <div id="cursor-ring"></div>
+
+    <nav id="main-nav">
+        <a href="#hero" class="nav-logo">RA<span>.</span></a>
+        <div class="nav-overlay" id="nav-overlay"></div>
+        <ul class="nav-links" id="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#blogs">Blog</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <a href="mailto:rahul0987abhishek@gmail.com" class="nav-cta">Say Hello →</a>
+        <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+            <span></span><span></span><span></span>
+        </button>
+    </nav>
+
+    <section id="hero">
+        <div class="hero-grid-bg"></div>
+        <div class="hero-glow"></div>
+        <div class="hero-inner">
+            <div class="hero-left">
+                <div class="hero-badge"><span class="dot"></span> Open to internships & collaborations</div>
+                <h1 class="hero-name"><span class="line1"><span>Rahul</span></span><span
+                        class="line2"><span>Abhishek.</span></span></h1>
+                <p class="hero-title">// Full Stack Developer & CS Student</p>
+                <p class="hero-tagline">Still a student, but already building things that combine <strong>web
+                        development</strong>, <strong>logic</strong>, and a bit of <strong>intelligence</strong>.</p>
+                <div class="hero-ctas"><a href="#projects" class="btn-primary">View My Work ↓</a><a href="#contact"
+                        class="btn-outline">Let's Talk</a></div>
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <div class="stat-num">6+</div>
+                        <div class="stat-label">Projects</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-num">4</div>
+                        <div class="stat-label">Certifications</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-num">5+</div>
+                        <div class="stat-label">Blog Posts</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-num">7.57</div>
+                        <div class="stat-label">CGPA / 10</div>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-right">
+                <div class="profile-img-wrap">
+                    <div class="profile-circle"><img src="https://placehold.co/400x400/1a1f1a/39ff6e?text=Rahul"
+                            alt="Rahul Abhishek" loading="lazy" decoding="async" /></div>
+                    <div class="hero-right-tag tl">// cs undergrad 🎓</div>
+                    <div class="hero-right-tag br">⚡ building in public</div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator"><span>scroll</span>
+            <div class="scroll-line"></div>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="sw">
+            <div class="section-tag">01 — About</div>
+            <div class="about-grid">
+                <div class="about-text reveal">
+                    <h2 class="section-title">Building things.<br><em>Breaking them.</em><br>Fixing them.</h2>
+                    <p>I'm a <strong>Computer Science undergrad</strong> at GRIET, Hyderabad, passionate about turning
+                        half-baked ideas into fully functioning products...</p>
+                    <div class="about-links"><a href="https://github.com/rahulabhishek5" target="_blank"
+                            class="chip">GitHub</a><a href="https://linkedin.com/in/kaitala-rahul-abhishek"
+                            target="_blank" class="chip">LinkedIn</a><a href="mailto:rahul0987abhishek@gmail.com"
+                            class="chip">✉ Email Me</a></div>
+                </div>
+                <div class="reveal reveal-delay-2">
+                    <div class="info-card">
+                        <div class="info-card-title">// Quick Info</div>
+                        <div class="info-row"><span class="info-row-label">Location</span><span
+                                class="info-row-val">Hyderabad, India 🇮🇳</span></div>
+                        <div class="info-row"><span class="info-row-label">Status</span><span class="info-row-val"
+                                style="color:var(--green)">Available for hire</span></div>
+                        <div class="info-row"><span class="info-row-label">Focus</span><span class="info-row-val">Full
+                                Stack + AI</span></div>
+                        <div class="info-row"><span class="info-row-label">Learning</span><span
+                                class="info-row-val">PostgreSQL, ML</span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="sw">
+            <div class="section-tag">02 — Skills</div>
+            <h2 class="section-title reveal">What I work <em>with</em>.</h2>
+            <p class="skills-intro reveal reveal-delay-1">Swipe horizontally → to explore my toolkit</p>
+            <div class="skills-categories">
+                <div class="skill-category">
+                    <div class="skill-cat-icon">⚡</div>
+                    <div class="skill-cat-name">Languages</div>
+                    <div class="skill-list"><span class="skill-tag hot">Python</span><span
+                            class="skill-tag hot">JavaScript</span><span class="skill-tag">C</span><span
+                            class="skill-tag">Java</span></div>
+                </div>
+                <div class="skill-category">
+                    <div class="skill-cat-icon">🧩</div>
+                    <div class="skill-cat-name">Frameworks</div>
+                    <div class="skill-list"><span class="skill-tag hot">Next.js</span><span
+                            class="skill-tag hot">FastAPI</span><span class="skill-tag">React</span><span
+                            class="skill-tag">Node.js</span></div>
+                </div>
+                <div class="skill-category">
+                    <div class="skill-cat-icon">🗄️</div>
+                    <div class="skill-cat-name">Databases</div>
+                    <div class="skill-list"><span class="skill-tag hot">Firebase</span><span
+                            class="skill-tag">PostgreSQL</span><span class="skill-tag">SQL</span></div>
+                </div>
+                <div class="skill-category">
+                    <div class="skill-cat-icon">🔧</div>
+                    <div class="skill-cat-name">Tools</div>
+                    <div class="skill-list"><span class="skill-tag hot">Git</span><span
+                            class="skill-tag">Figma</span><span class="skill-tag">Postman</span></div>
+                </div>
+                <div class="skill-category">
+                    <div class="skill-cat-icon">🤖</div>
+                    <div class="skill-cat-name">Core CS</div>
+                    <div class="skill-list"><span class="skill-tag hot">DSA</span><span
+                            class="skill-tag">OOP</span><span class="skill-tag">OS</span></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="sw">
+            <div class="section-tag">03 — Projects</div>
+            <h2 class="section-title reveal">Things I've <em>Built</em>.</h2>
+            <div class="projects-tabs reveal"><button class="tab-btn active" data-tab="technical">⌨ Technical
+                    Projects</button><button class="tab-btn" data-tab="creative">🎨 Creative Projects</button></div>
+            <div class="tab-panel active" id="tab-technical">
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <div class="project-type">★ Featured · Full Stack</div>
+                        <div class="project-title">Real-Time Dashboard System</div>
+                        <p class="project-desc">Full-stack dashboard with live updates (FastAPI + Next.js).</p>
+                        <div class="project-stack"><span class="skill-tag hot">FastAPI</span><span
+                                class="skill-tag hot">Next.js</span></div>
+                        <div class="project-footer"><span class="project-status ongoing">● In Progress</span><a href="#"
+                                class="project-link">GitHub ↗</a></div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-type">Web App · Firebase</div>
+                        <div class="project-title">Fitness Web Application</div>
+                        <p class="project-desc">Personalized workout planner with Firebase auth.</p>
+                        <div class="project-stack"><span class="skill-tag hot">JavaScript</span><span
+                                class="skill-tag hot">Firebase</span></div>
+                        <div class="project-footer"><span class="project-status">✓ Completed</span><a href="#"
+                                class="project-link">GitHub ↗</a></div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-type">API Integration</div>
+                        <div class="project-title">Recipe Finder</div>
+                        <p class="project-desc">Fetch recipes from external APIs with filters.</p>
+                        <div class="project-stack"><span class="skill-tag hot">JavaScript</span><span
+                                class="skill-tag">REST API</span></div>
+                        <div class="project-footer"><span class="project-status">✓ Completed</span><a href="#"
+                                class="project-link">GitHub ↗</a></div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-type">Desktop App · C#</div>
+                        <div class="project-title">Typing Speed Test</div>
+                        <p class="project-desc">WinForms app to measure typing speed.</p>
+                        <div class="project-stack"><span class="skill-tag hot">C#</span><span
+                                class="skill-tag">WinForms</span></div>
+                        <div class="project-footer"><span class="project-status">✓ Completed</span><a href="#"
+                                class="project-link">GitHub ↗</a></div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-panel" id="tab-creative">
+                <div class="creative-grid">
+                    <div class="creative-card">
+                        <div class="creative-icon">🎨</div>
+                        <div class="creative-label">Event Posters</div>
+                    </div>
+                    <div class="creative-card">
+                        <div class="creative-icon">📜</div>
+                        <div class="creative-label">Certificate Designs</div>
+                    </div>
+                    <div class="creative-card">
+                        <div class="creative-icon">✨</div>
+                        <div class="creative-label">UI Mockups</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="education">
+        <div class="sw">
+            <div class="section-tag">04 — Education</div>
+            <h2 class="section-title reveal">My <em>Education</em>.</h2>
+            <div class="edu-card">
+                <div>
+                    <div class="edu-degree">B.Tech in Computer Science</div>
+                    <div class="edu-school">GRIET, Hyderabad</div>
+                    <div class="edu-subjects"><span class="edu-badge">Data Structures</span><span
+                            class="edu-badge">Algorithms</span></div>
+                </div>
+                <div class="edu-right">
+                    <div class="cgpa">7.57</div>
+                    <div class="cgpa-label">CGPA / 10</div>
+                    <div class="year-tag">2023 — 2027</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="blogs">
+        <div class="sw">
+            <div class="section-tag">05 — Blog</div>
+            <h2 class="section-title reveal">Thoughts &amp; <em>Writings</em>.</h2>
+            <div class="blogs-grid">
+                <div class="blog-card">
+                    <div class="blog-cat technical">Technical</div>
+                    <div class="blog-title">Real-Time Dashboard with FastAPI & Next.js</div>
+                    <p class="blog-excerpt">Architecting a full-stack dashboard with WebSockets.</p>
+                    <div class="blog-meta"><span>Coming soon</span><span>8 min read</span></div><a href="#"
+                        class="blog-read">Read more →</a>
+                </div>
+                <div class="blog-card">
+                    <div class="blog-cat technical">Technical</div>
+                    <div class="blog-title">Firebase Auth in Vanilla JS</div>
+                    <p class="blog-excerpt">Integrate Firebase auth without frameworks.</p>
+                    <div class="blog-meta"><span>Coming soon</span><span>6 min read</span></div><a href="#"
+                        class="blog-read">Read more →</a>
+                </div>
+                <div class="blog-card">
+                    <div class="blog-cat personal">Personal</div>
+                    <div class="blog-title">Why I Started Building Before Ready</div>
+                    <p class="blog-excerpt">Imposter syndrome, learn-by-doing, shipping broken things.</p>
+                    <div class="blog-meta"><span>Coming soon</span><span>5 min read</span></div><a href="#"
+                        class="blog-read">Read more →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="sw contact-section">
+            <div class="contact-glow"></div>
+            <div class="contact-inner">
+                <div class="section-tag" style="justify-content:center">06 — Contact</div>
+                <h2 class="contact-headline reveal">Let's build something<br><em style="color:var(--green)">great</em>
+                    together.</h2>
+                <div class="contact-links reveal reveal-delay-2"><a href="mailto:rahul0987abhishek@gmail.com"
+                        class="contact-link">✉ rahul0987abhishek@gmail.com</a><a
+                        href="https://github.com/rahulabhishek5" class="contact-link">🐙 GitHub</a><a
+                        href="https://linkedin.com/in/kaitala-rahul-abhishek" class="contact-link">🔗 LinkedIn</a></div>
+                <a href="mailto:rahul0987abhishek@gmail.com" class="btn-primary">Send a message ✉</a>
+            </div>
+        </div>
+    </section>
+
+    <footer><span class="footer-logo">Rahul Abhishek</span><span>Designed & built with ❤️ — Hyderabad,
+            India</span><span>© 2025 · All rights reserved</span></footer>
+    <button id="backToTop" class="back-to-top" aria-label="Back to top">↑</button>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
